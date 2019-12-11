@@ -16,4 +16,4 @@ def find_the_cheese(array)
   array.detect(|element| i.include?(cheese_types))
 end
 
-[1,2,3].detect{|i| i.odd?}
+# [1,2,3].detect{|i| i.odd?}
