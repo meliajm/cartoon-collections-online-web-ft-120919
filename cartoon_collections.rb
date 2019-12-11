@@ -10,11 +10,6 @@ def long_planeteer_calls(array)
   array.any? {|call| call.length > 4}
 end
 
-# [1,2,3,4,5].select do |number|
-#   number.even?
-# end #=> [2,4]
-
-
 def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
